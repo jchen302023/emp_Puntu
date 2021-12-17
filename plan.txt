@@ -13,8 +13,11 @@ Driver File:
   - Tracks the amount of time it takes for lin search to run 
     - Uses vars linStart, linEnd, linTot
 
+Trials:
+- [1 M], [10 M], [100 M]
+  - subject to change depending on runtime 
+- Test each 5 times for both Bin and Lin
+  - 30 total trials 
 
-Trials for [100], [1000], [10,000], each test 5 times for both Bin and Lin. 
-=> 30 total trials 
-Each array is filled from ascending numerical order using a for loop (0, 1, 2, 3 etc.) 
-
+Arrays:
+- Ascending numerical order using a for loop (0, 1, 2, 3 etc.) 
