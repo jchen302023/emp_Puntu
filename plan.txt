@@ -2,12 +2,15 @@ Goal: Bin v. Lin. Find the average time it takes for each trial to run the code.
 
 Create 2 files; One for BinSearch, One for LinSearch
 TimeMillis in the Driver file
+
 BinTime Start
 BinTime End
 BinTime Difference = End - Start 
 LinTime Start
 LinTime End
 LinTime Difference = End - Start 
+
 Trials for [100], [1000], [10,000], each test 5 times for both Bin and Lin. 
 => 30 total trials 
+Each array is filled from ascending numerical order using a for loop (0, 1, 2, 3 etc.) 
 
