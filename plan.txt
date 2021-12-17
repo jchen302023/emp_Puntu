@@ -9,10 +9,10 @@ Driver File:
 - BinTime 
   - Tracks the amount of time it takes for bin search to run 
     - Uses vars binStart, binEnd, binTot
-- 
-LinTime Start (returns time when you first start running Lin)
-LinTime End (returns time when you finish running)
-LinTime Difference = End - Start (time it took to run the code) 
+- LinTime 
+  - Tracks the amount of time it takes for lin search to run 
+    - Uses vars linStart, linEnd, linTot
+
 
 Trials for [100], [1000], [10,000], each test 5 times for both Bin and Lin. 
 => 30 total trials 
