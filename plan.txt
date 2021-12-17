@@ -1,0 +1,6 @@
+GOal: BIn v. LIn | CurrentTimeMillis
+Create 2 files; One for BinSearch, One for LinSearch
+TimeMillis in the Driver file
+BinTime Start
+BinTime End
+BinTime Difference = End - Start 
