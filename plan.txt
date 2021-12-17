@@ -6,9 +6,10 @@ TimeMillis in the Driver file
 BinTime Start
 BinTime End
 BinTime Difference = End - Start 
-LinTime Start
-LinTime End
-LinTime Difference = End - Start 
+
+LinTime Start (returns time when you first start running Lin)
+LinTime End (returns time when you finish running)
+LinTime Difference = End - Start (time it took to run the code) 
 
 Trials for [100], [1000], [10,000], each test 5 times for both Bin and Lin. 
 => 30 total trials 
