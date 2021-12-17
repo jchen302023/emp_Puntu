@@ -1,12 +1,15 @@
-Goal: Bin v. Lin. Find the average time it takes for each trial to run the code. 
+Goal: 
+- Bin v. Lin -> Find the average time it takes for each trial to run the code. 
 
-Create 2 files; One for BinSearch, One for LinSearch
-TimeMillis in the Driver file
+How:
+- Create 2 files (BinSearch and LinSearch)
+- Timemills in the Driver File (tracks amount of time)
 
-BinTime Start
-BinTime End
-BinTime Difference = End - Start 
-
+Driver File: 
+- BinTime 
+  - Tracks the amount of time it takes for bin search to run 
+    - Uses vars binStart, binEnd, binTot
+- 
 LinTime Start (returns time when you first start running Lin)
 LinTime End (returns time when you finish running)
 LinTime Difference = End - Start (time it took to run the code) 
