@@ -2,8 +2,11 @@
 
 ### TNPG: Puntu   
   Anjini Katari, Jacc Chen
+  
   APCS pd07 
+  
   lab03 - Get Empirical 
+  
   12-21-21
 ### - Tests Performed: 
 - Filled an Array with 1000000 integers, ran BinSearch and LinSearch 5 times each on it. We then calculated the average time it took for both to find integer 80001.
