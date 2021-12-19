@@ -18,7 +18,7 @@
     - BinSearch (0 - 4 milliseconds) avg => 0 milliseconds
     - LinSearch (2 - 3 milliseconds) avg => 2.5 milliseconds
 - Array of 100000000 int, searching for 1000000
-    - BinSearch (0 - 
-    - LinSearch (4 - 
+    - BinSearch (0 - 1 milliseconds) avg => 0 milliseconds
+    - LinSearch (4 - 6 milliseconds) avg => 5 milliseconds 
 
 ### - Conclusion:
