@@ -1,19 +1,21 @@
 public class SearchDriver {
 
-  public static void BinTime(Comparable[] a, int b) {
+  public static long BinTime(Comparable[] a, int b) {
     long BinStart = System.currentTimeMillis();
     BinSearch.binSearch(a, b);
     long BinEnd = System.currentTimeMillis();
     long BinTot = BinEnd - BinStart;
-    System.out.println("Time it took: " + BinTot + " milliseconds");
+    // System.out.println("Time it took: " + BinTot + " milliseconds");
+    return BinTot;
   } // BinTime
 
-  public static void LinTime(Comparable[] a, int b) {
+  public static long LinTime(Comparable[] a, int b) {
     long LinStart = System.currentTimeMillis();
     LinSearch.linSearch(a, b);
     long LinEnd = System.currentTimeMillis();
     long LinTot = LinEnd - LinStart;
-    System.out.println("Time it took: " + LinTot + " milliseconds");
+    // System.out.println("Time it took: " + LinTot + " milliseconds");
+    return LinTot;
   } // LinTime
 
   public static void main(String[] args) {
@@ -23,12 +25,16 @@ public class SearchDriver {
     for (int i = 0; i < Test1.length; i ++) {
       Test1[i] = i;
     }
-    Comparable[] Test2 = new Integer[100000000]; // my computers maximum is 1000000000
-    for (int i = 0; i < Test2.length; i ++) {
-      Test2[i] = i;
-    }
+
     BinTime(Test1, 1000000);
     LinTime(Test1, 1000000);
+    BinTime(Test1, 80001);
+    LinTime(Test1, 80001);
+    long LinAverage = (LinTime(Test1, 80001) + LinTime(Test1, 80001) + LinTime(Test1, 80001) + LinTime(Test1, 80001) + LinTime(Test1, 80001)) / 5;
+    System.out.println("Average time for LinTime: " + LinAverage + " milliseconds");
+    long BinAverage = (BinTime(Test1, 80001) + BinTime(Test1, 80001) + BinTime(Test1, 80001) + BinTime(Test1, 80001) + BinTime(Test1, 80001)) / 5;
+    System.out.println("Average time for BinTime: " + BinAverage + " milliseconds");
+
 
 
   } // main
