@@ -11,3 +11,4 @@ QCC:
 DISCO: 
 - currentTimeMillis is called by System.currentTimeMillis() 
 - We did not need to make global variables 
+- Double and long would not convert into integer
