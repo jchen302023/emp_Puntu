@@ -23,4 +23,4 @@
 
 ### - Conclusion:
 - Binary Searches operate faster than Linear Searches (especially with numbers at higher indexes)
-- My computer doubles as a radiator too 
+- My computer doubles as a heater too 
