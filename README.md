@@ -22,3 +22,5 @@
     - LinSearch (4 - 6 milliseconds) avg => 5 milliseconds 
 
 ### - Conclusion:
+- Binary Searches operate faster than Linear Searches (especially with numbers at higher indexes)
+- My computer doubles as a radiator too 
