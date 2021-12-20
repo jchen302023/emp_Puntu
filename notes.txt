@@ -1,0 +1,12 @@
+TNPG: Puntu (Anjini Katari, Jacc Chen)
+APCS pd07 
+lab03 - Get Empirical 
+12-20-21
+
+QCC:
+- Do we have to consider the worst case scenarios for each search? (Binsearch is greatest # of turns, calculated with log. Linsearch is the greatest possible index)
+- Could you use getTime instead of currentTimeMillis? Would it change anything? 
+- How can we allocated more memory to java so that we can test cases with longer arrays?
+
+DISCO: 
+- 
