@@ -11,3 +11,4 @@ QCC:
 DISCO: 
 - currentTimeMillis is called by System.currentTimeMillis() 
 - We did not need to make global variables 
+- Instead of finding the time it takes for one individual Bin/LinTime to run, we can find the time it takes to run multiple ones
