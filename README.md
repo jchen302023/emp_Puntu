@@ -13,7 +13,7 @@
 - Filled an Array with 100000 integers, ran BinSearch and LinSearch 5 times each on it. 
 ### - Results:
 - Jacc's computer can't go over 10^9 (100 million)
-- Anjini's computer can't go over 
+- Anjini's computer can't go over 10 million (when looking through 10k ints) 
 - We created BinTime/LinTime that takes a Test array, a random number to search for, and the number of times you want to run Lin/Binsearch
 - Test1 is an array of 1000000 ints, searching for a random #
   - Example testcase: Test1, randomInt = 606633, 10000 times each Lin/Binsearch 
@@ -32,4 +32,4 @@
 
 ### - Conclusion:
 - Binary Searches operate faster than Linear Searches relative the size of the dataset
-- My computer doubles as a heater too 
+- Jacc's computer doubles as a heater, Anjini's doesn't
