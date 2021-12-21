@@ -9,8 +9,8 @@
   
   12-21-21
 ### - Tests Performed: 
-- Filled an Array with 1000000 integers, ran BinSearch and LinSearch 2 times each on it. 
-- Filled an Array with 100000 integers, ran BinSearch and LinSearch 2 times each on it. 
+- Filled an Array with 1000000 integers, ran BinSearch and LinSearch 5 times each on it. 
+- Filled an Array with 100000 integers, ran BinSearch and LinSearch 5 times each on it. 
 ### - Results:
 - Jacc's computer can't go over 10^9 (100 million)
 - Anjini's computer can't go over 
