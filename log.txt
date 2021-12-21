@@ -30,6 +30,7 @@ lab03 - Get Empirical
 - Tested the limits of Jacc's computer -> went kaput
 - Updated log + ReadMe + Notes
 
+
 12/20/21, classtime
 - Came up with more test cases to push the machine closer to it's limit
   - Prior to this, the Bin sort would usually end up being 0 ms
