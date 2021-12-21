@@ -31,5 +31,5 @@
     - LinSearch time taken: 352 milliseconds
 
 ### - Conclusion:
-- Binary Searches operate faster than Linear Searches relative the size of the array
+- Binary Searches operate faster than Linear Searches relative the size of the dataset
 - My computer doubles as a heater too 
