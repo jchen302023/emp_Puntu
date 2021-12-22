@@ -3,7 +3,6 @@ APCS pd07
 lab03 - Get Empirical 
 12-20-21
 
-
 12/15/21, class time 
 - Drew out intial plan on paper
 - Reviewed Binary and Linear search
@@ -37,3 +36,8 @@ lab03 - Get Empirical
 - Tested limits of Anjini's computer 
 - Updated log + ReadMe + Notes
 
+12/12/21, classtime and hometime
+- Reviewed other people's code, presentation style 
+- Talked about what the best and worse case scenarios would look like and how
+  they would differ (more in DISCOS)
+- Updated SearchDriver, log, notes and plan to better answer the hypothesis 

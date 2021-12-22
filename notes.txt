@@ -4,11 +4,32 @@ lab03 - Get Empirical
 12-20-21
 
 QCC:
-- Do we have to consider the worst case scenarios for each search? (Binsearch is greatest # of turns, calculated with log. Linsearch is the greatest possible index)
 - Could you use getTime instead of currentTimeMillis? Would it change anything? 
-- How can we allocated more memory to java so that we can test cases with longer arrays?
+- Should we allocated more memory to java so that we can test cases with longer 
+  arrays?
 
 DISCO: 
 - currentTimeMillis is called by System.currentTimeMillis() 
 - We did not need to make global variables 
-- Instead of finding the time it takes for one individual Bin/LinTime to run, we can find the time it takes to run multiple ones
+- Instead of finding the time it takes for one individual Bin/LinTime to 
+  run, we can find the time it takes to run multiple ones
+- The best case for BinSearch would be the middle number, while the best case
+  for LinSearch would be the first value in the array 
+- The worst case of BinSearch would be the first or last element in the array, 
+  while the worst case for LinSearch would be the last value in the array 
+
+Gallery Tour:
+- Un-upTownLeopardRock
+    - Different machines had different length limits (in terms of run time)
+    - Used 2^29 as a length because it's close to the maximum that an int can
+      store 
+    - First case was longer than the others 
+- LYJ
+    - Used a worst case and a random case 
+        - Worst was more important 
+    - Could have an array over 10M but the computers took too long 
+- EMP_TeamIncreadiblyCohesive
+    - Created a method that does 'System.out.println' so you don't need to 
+      write it out over and over again 
+    - Had a best and worst test case 
+    - Overall, had more methods than our code 

@@ -1,3 +1,8 @@
+TNPG: Puntu (Anjini Katari, Jacc Chen)
+APCS pd07 
+lab03 - Get Empirical 
+12-20-21
+
 Goal: 
 - Bin v. Lin -> Find the average time it takes for each trial to run the code. 
 
@@ -14,10 +19,11 @@ Driver File:
     - Uses vars linStart, linEnd, linTot
 
 Trials:
-- [1 M], [10 M], [100 M]
-  - subject to change depending on runtime 
 - Test each 5 times for both Bin and Lin
-  - 30 total trials 
+- 10K repititions, find the average, use that to get final answer 
+- Looks for worst case (last num in array)
 
 Arrays:
 - Ascending numerical order using a for loop (0, 1, 2, 3 etc.) 
+- Tested lengths:
+  - [1 K], [10 K], [100 K], [1 M], [10 M] 
